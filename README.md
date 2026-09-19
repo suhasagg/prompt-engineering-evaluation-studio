@@ -80,5 +80,3 @@ mvn spring-boot:run
 ## Production extensions
 
 For a production version, replace the in-memory store with PostgreSQL/ClickHouse, add asynchronous experiment jobs through Kafka, distributed workers, Azure OpenAI/local-model adapters, JSON Schema/Pydantic structured-output validation, semantic and LLM-as-judge metrics, pairwise ranking, groundedness/safety evaluators, confidence intervals and significance testing, prompt/model versioning, MLflow-style experiment lineage, RBAC/Entra ID, tenant quotas, OpenTelemetry traces, dashboards, Kubernetes deployment, cost/token accounting, caching, CI regression gates, and human annotation workflows.
-
-A strong system-design story is: **Prompt Registry -> Experiment Scheduler -> Model Gateway -> Evaluation Workers -> Metrics Store -> Analytics API/UI**, with reproducible dataset/model/prompt versions and automated quality gates before production rollout.
