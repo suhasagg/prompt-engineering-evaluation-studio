@@ -1,0 +1,9 @@
+services:
+  evaluator:
+    build: ./python-service
+    ports: ["8000:8000"]
+  gateway:
+    build: ./java-service
+    environment: ["PYTHON_SERVICE_URL=http://evaluator:8000"]
+    ports: ["8080:8080"]
+    depends_on: [evaluator]

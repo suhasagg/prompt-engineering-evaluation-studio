@@ -1,0 +1,1 @@
+[{"input":"I love the service, it is excellent.","expected":{"answer":"I love the service, it is excellent.","sentiment":"positive"}},{"input":"The experience was terrible.","expected":{"answer":"The experience was terrible.","sentiment":"negative"}}]

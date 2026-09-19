@@ -1,0 +1,1 @@
+[{"name":"concise","template":"Classify sentiment and return JSON. INPUT: {{input}}"},{"name":"strict","template":"Return only JSON with answer and sentiment. INPUT: {{input}}"}]
